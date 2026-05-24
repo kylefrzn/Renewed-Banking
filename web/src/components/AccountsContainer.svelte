@@ -16,15 +16,18 @@
 <style>
     .main {
         overflow: hidden;
-        width: 90%;
-        height: 90%;
-        bottom: 5%;
-        left: 5%;
-        padding: 1rem;
+        width: 76%;
+        height: 84%;
+        bottom: 8%;
+        left: 12%;
+        padding: 1.4rem;
         position: absolute;
-        background-color: rgb(32, 41, 48);
-        border-radius: 5px;
-        border: 4px solid #393A45;
+        background-color: rgba(14, 15, 20, 0.84);
+        background: linear-gradient(145deg, rgba(36, 38, 44, 0.72), rgba(18, 19, 25, 0.82));
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 50px rgba(0, 0, 0, 0.48), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(14px);
         background-size: cover;
         background-position: center;
         opacity: 1;
@@ -32,7 +35,7 @@
 
     section {
         display: flex;
-        gap: 4rem;
+        gap: 1.4rem;
         height: calc(100% - 2rem);
     }
     h5 {
@@ -40,5 +43,6 @@
         display: flex;
         align-items: center;
         gap: 0.5rem;
+        color: #f1d9d9;
     }
 </style>

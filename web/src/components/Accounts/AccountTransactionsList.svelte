@@ -32,9 +32,12 @@
     <h3 class="heading">
         <span>{$translations.transactions}</span>
 
-        <div>
+        <div class="brand">
             <img src="./img/bank.png" alt="bang icon" />
-            <span>{$translations.bank_name}</span>
+            <div class="brand-text">
+                <span class="brand-title">ShadowPay</span>
+                <small>Powered by Renewed-Banking</small>
+            </div>
         </div>
     </h3>
 
@@ -63,38 +66,64 @@
 
 <style>
     .transactions-container {
-        flex: 1 1 75%;
-        transform: translateY(-0.6rem);
-        padding: 0.5rem;
+        flex: 1 1 72%;
+        transform: translateY(-0.15rem);
+        padding: 0.5rem 0.25rem;
     }
 
     .heading {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.8rem;
     }
 
-    .heading div {
+    .brand {
         display: flex;
         align-items: center;
+        gap: 0.8rem;
     }
 
     .heading img {
         width: 3rem;
-        margin-right: 1rem;
+    }
+
+    .brand-text {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+    }
+
+    .brand-title {
+        color: #ffd0d0;
+        font-weight: 700;
+        letter-spacing: 0.04rem;
+        font-size: 2rem;
+    }
+
+    .brand-text small {
+        color: #b6bacf;
+        font-size: 0.95rem;
+    }
+
+    .heading :global(span:first-child) {
+        font-size: 3rem;
+        font-weight: 700;
     }
 
     .transactions-search {
         width: 100%;
-        border-radius: 5px;
-        border: none;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
         padding: 1.4rem;
         margin-bottom: 1rem;
-        background-color: var(--clr-primary-light);
+        background-color: rgba(60, 64, 74, 0.45);
         color: #fff;
     }
 
     .scroller {
         height: 85%;
+        padding-right: 0.4rem;
     }
 
     .export-data {
