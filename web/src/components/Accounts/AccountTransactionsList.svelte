@@ -66,14 +66,16 @@
 
 <style>
     .transactions-container {
-        flex: 1 1 75%;
-        transform: translateY(-0.6rem);
-        padding: 0.5rem;
+        flex: 1 1 72%;
+        transform: translateY(-0.15rem);
+        padding: 0.5rem 0.25rem;
     }
 
     .heading {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.8rem;
     }
 
     .brand {
@@ -96,11 +98,17 @@
         color: #ffd0d0;
         font-weight: 700;
         letter-spacing: 0.04rem;
+        font-size: 2rem;
     }
 
     .brand-text small {
         color: #b6bacf;
         font-size: 0.95rem;
+    }
+
+    .heading :global(span:first-child) {
+        font-size: 3rem;
+        font-weight: 700;
     }
 
     .transactions-search {
@@ -115,6 +123,7 @@
 
     .scroller {
         height: 85%;
+        padding-right: 0.4rem;
     }
 
     .export-data {

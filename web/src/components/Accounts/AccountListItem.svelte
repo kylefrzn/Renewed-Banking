@@ -18,7 +18,7 @@
     });
 </script>
 
-<section class="account" on:click={()=>handleAccountClick(account.id)} on:keydown={()=>{}}>
+<section class="account" class:active={account.id === $activeAccount} on:click={()=>handleAccountClick(account.id)} on:keydown={()=>{}}>
     <h4>
         {account.type}{$translations.account}/ {account.id}
     </h4>
@@ -53,6 +53,12 @@
         border: 1px solid rgba(255, 255, 255, 0.15);
         cursor: pointer;
         box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+        transition: 0.2s ease;
+    }
+    .account:hover,
+    .account.active {
+        border-color: rgba(232, 94, 94, 0.7);
+        transform: translateY(-1px);
     }
     .account:not(:last-child) {
         margin-bottom: 1.5rem;
@@ -67,6 +73,7 @@
     }
     h5 span {
         margin-top: 0.3rem;
+        color: #bfc5da;
     }
 
     .price {
@@ -85,5 +92,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0.5rem;
+  }
+
+  .btns-group :global(button) {
+    font-size: 1.05rem;
+    padding: 0.9rem;
   }
 </style>

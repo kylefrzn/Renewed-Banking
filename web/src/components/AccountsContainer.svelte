@@ -16,11 +16,11 @@
 <style>
     .main {
         overflow: hidden;
-        width: 72%;
-        height: 82%;
-        bottom: 9%;
-        left: 14%;
-        padding: 1rem;
+        width: 76%;
+        height: 84%;
+        bottom: 8%;
+        left: 12%;
+        padding: 1.4rem;
         position: absolute;
         background-color: rgba(14, 15, 20, 0.84);
         background: linear-gradient(145deg, rgba(36, 38, 44, 0.72), rgba(18, 19, 25, 0.82));
@@ -35,7 +35,7 @@
 
     section {
         display: flex;
-        gap: 4rem;
+        gap: 1.4rem;
         height: calc(100% - 2rem);
     }
     h5 {
