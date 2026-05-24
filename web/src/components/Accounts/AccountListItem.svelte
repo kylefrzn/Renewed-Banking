@@ -47,13 +47,12 @@
 
 <style>
     .account {
-        background-color: var(--clr-primary);
+        background: linear-gradient(145deg, rgba(36, 38, 44, 0.76), rgba(28, 31, 38, 0.72));
         padding: 1rem;
-        border-radius: 10px;
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
         cursor: pointer;
-        box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
-        -webkit-box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
-        -moz-box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
+        box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
     }
     .account:not(:last-child) {
         margin-bottom: 1.5rem;
