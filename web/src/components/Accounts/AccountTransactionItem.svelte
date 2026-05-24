@@ -62,12 +62,11 @@
     .transaction {
         background-color: var(--clr-primary-light);
         padding: 1.5rem;
-        border-radius: 6px;
+        border-radius: 10px;
         font-size: 1.5rem;
         font-weight: 300;
-        box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
-        -webkit-box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
-        -moz-box-shadow: 3px 5px 37px 4px rgba(48,48,48,0.38);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
     }
 
     .transaction:not(:last-child) {
@@ -81,20 +80,20 @@
 
     .title-container > p {
         background-color: var(--clr-green);
-        color: #0f745e;
+        color: #092a24;
         padding: 0.5rem 1rem;
         border-radius: 6px;
     }
     .title-container.withdrawTitle > p {
         background-color: var(--clr-orange);
-        color: #754a1a;
+        color: #2f0909;
         padding: 0.5rem 1rem;
         border-radius: 6px;
     }
     .trans_id {
         color: #ced3eb;
         background-color: var(--clr-green);
-        color: #0f745e;
+        color: #092a24;
         padding: 0.3rem 0.8rem;
         border-radius: 6px;
         display: flex;
@@ -104,7 +103,7 @@
 
     .trans_id.withdrawId {
         background-color: var(--clr-orange);
-        color: #754a1a;
+        color: #2f0909;
         padding: 0.5rem 1rem;
         border-radius: 6px;
     }
@@ -114,7 +113,7 @@
         justify-content: space-between;
         padding-bottom: 0.5rem;
         margin-bottom: 1rem;
-        border-bottom: 3px solid #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
 
     .transaction h4 {
