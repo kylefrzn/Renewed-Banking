@@ -16,12 +16,13 @@
 <style>
     .main {
         overflow: hidden;
-        width: 90%;
-        height: 90%;
-        bottom: 5%;
-        left: 5%;
+        width: 72%;
+        height: 82%;
+        bottom: 9%;
+        left: 14%;
         padding: 1rem;
         position: absolute;
+        background-color: rgba(14, 15, 20, 0.84);
         background: linear-gradient(145deg, rgba(36, 38, 44, 0.72), rgba(18, 19, 25, 0.82));
         border-radius: 16px;
         border: 1px solid rgba(255, 255, 255, 0.2);

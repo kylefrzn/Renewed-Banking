@@ -44,11 +44,9 @@ html {
 body {
     min-height: 100vh;
     font-family: var(--font-family);
-    background:
-        radial-gradient(circle at 20% 20%, rgba(209, 75, 75, 0.18), transparent 30%),
-        radial-gradient(circle at 80% 80%, rgba(130, 18, 18, 0.18), transparent 35%),
-        linear-gradient(135deg, #0d0e13 0%, #1a1d25 100%);
+    background: transparent;
     color: #fff;
+    overflow: hidden;
 }
 
 h3.heading {
