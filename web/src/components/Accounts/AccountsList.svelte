@@ -26,11 +26,11 @@
     }
     .acc-search {
         width: 100%;
-        border-radius: 5px;
-        border: none;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
         padding: 1.4rem;
         margin-bottom: 1rem;
-        background-color: var(--clr-primary-light);
+        background-color: rgba(60, 64, 74, 0.45);
         color: #fff;
     }
 </style>
