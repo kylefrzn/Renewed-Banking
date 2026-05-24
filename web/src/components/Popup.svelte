@@ -63,7 +63,7 @@
         left: 0;
         bottom: 0;
         right: 0;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(6, 7, 10, 0.62);
 
         display: flex;
         align-items: center;
@@ -73,9 +73,11 @@
     .popup-content {
         max-width: 60rem;
         width: 100%;
-        background-color: var(--clr-primary);
+        background: linear-gradient(145deg, rgba(36, 38, 44, 0.85), rgba(16, 17, 22, 0.9));
         padding: 5rem;
         border-radius: 1rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(16px);
     }
 
     h2 {
@@ -99,12 +101,11 @@
 
     .form-row input {
         width: 100%;
-        border-radius: 5px;
-        background-color: transparent;
-        border: none;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
         padding: 1.4rem;
         margin-bottom: 1rem;
-        background-color: #2a2b33;
+        background-color: rgba(42, 43, 51, 0.55);
         color: #fff; 
     }
 </style>
